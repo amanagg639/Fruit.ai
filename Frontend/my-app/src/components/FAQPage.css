@@ -1,0 +1,119 @@
+/* FAQ Item Styles */
+
+.faq-item {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.faq-item h4 {
+  margin-top: 0;
+}
+
+.faq-item p {
+  margin-bottom: 20px;
+}
+
+.faq-item .btn {
+  margin-right: 10px;
+}
+
+/* Add this to add some space between the buttons */
+.faq-item .btn:last-child {
+  margin-right: 0;
+}
+
+/* Add this to display the buttons as block elements and add some space between them */
+.faq-item .btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.faq-item .btn-container .btn {
+  margin-right: 10px;
+}
+
+.faq-item .btn-container .btn:last-child {
+  margin-right: 0;
+}
+/* Global Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* FAQ Page Styles */
+
+.faq-page {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq-page h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Error Message Styles */
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Button Styles */
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #666;
+  color: #fff;
+}
+
+/* .btn-danger {
+  background-color: #red;
+  color: #fff;
+} */
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+/* FAQ Item Styles */
+
+.faq-item {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.faq-item h4 {
+  margin-top: 0;
+}
+
+.faq-item p {
+  margin-bottom: 20px;
+}
+
+.faq-item .btn {
+  margin-right: 10px;
+}

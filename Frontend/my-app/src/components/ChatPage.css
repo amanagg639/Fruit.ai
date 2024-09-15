@@ -1,0 +1,78 @@
+
+/* Global Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Chat Page Styles */
+h2{
+  color: black;
+}
+.chat-page {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-page h2 {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Fruits List Styles */
+
+.fruits-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fruits-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.fruits-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.fruits-list li:last-child {
+  border-bottom: none;
+}
+
+/* Selected Fruit Styles */
+
+.selected-fruit {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.selected-fruit h3 {
+  margin-top: 0;
+}
+
+/* Button Styles */
+
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}

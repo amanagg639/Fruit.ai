@@ -1,0 +1,49 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-image: linear-gradient(to bottom, #87CEEB, #4682B4);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 40px auto;
+  }
+  
+  h2 {
+    margin-top: 0;
+    color: #fff;
+  }
+  
+  input[type="text"], input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #fff;
+  }
+  
+  input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  button[type="button"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #87CEEB; /* same as the top of the gradient */
+    color: #333; /* dark text color to contrast with the light blue background */
+    cursor: pointer;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #82b8e3; /* same as the bottom of the gradient */
+  }
+  
+  button[type="button"]:active {
+    background-color: #4682B4; /* same as the bottom of the gradient */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
